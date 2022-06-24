@@ -1,0 +1,13 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# IDEs and editors
+.idea/*
+
+# Visual Studio 2022
+.vs/*
+
+# Visual Studio Code
+.vscode/*
+
+# Windows
+*.DS_Store
