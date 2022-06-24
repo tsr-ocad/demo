@@ -4,7 +4,7 @@ on:
   issues:
     types: [opened]
 env:
-  MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+  PROJECTTOKEN: 'ProjectToken'
 
 jobs:
   assign_one_project:
@@ -15,4 +15,4 @@ jobs:
       uses: srggrs/assign-one-project-github-action@1.3.1
       if: github.event.action == 'opened'
       with:
-        project: 'https://github.com/orgs/OCAD-AG/projects/6'
+        project: 'https://github.com/users/tsr-ocad/projects/1'
